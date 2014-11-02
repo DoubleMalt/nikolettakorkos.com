@@ -146,6 +146,21 @@ a, a:visited, a:hover, a:active {
     z-index: -5;
 }
 
+#background-performances {
+    background-image: url(../img/background-performances.jpg);
+    background-size: 1920px auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: auto;
+    right:auto;
+    z-index: -5;
+}
+
+
 
 .column-outer
 {
@@ -217,7 +232,22 @@ h1 a, h1 a:visited, h1 a:hover, h1 a:active {
     text-align: left;
 }
 
+#content-performances {
+    max-width: 800px;
+    border-radius: 5px;
 
+    background-color: rgba(0,0,0, 0.5);
+    padding: 1em;
+    margin-top: 2em;
+
+    display: inline-block;
+
+    text-align: left;
+
+    color: white;
+
+
+}
 
 @media screen and (max-width: 800px) {
 

@@ -102,12 +102,16 @@ textarea {
     src: url(fonts/chiller.ttf);
 }
 
-body
+html, button, input, select, textarea
 {
     font-family: chiller, sans-serif;
-    font-size: 20pt;
+}
 
+body
+{
+    font-size: 17pt;
 
+    text-align: center;
 }
 
 a, a:visited, a:hover, a:active {
@@ -198,6 +202,19 @@ h1 {
 h1 a, h1 a:visited, h1 a:hover, h1 a:active {
     text-decoration: none;
 
+}
+
+#content-workshops {
+    max-width: 800px;
+    border-radius: 5px;
+
+    background-color: rgba(255,255,255, 0.5);
+    padding: 1em;
+    margin-top: 2em;
+
+    display: inline-block;
+
+    text-align: left;
 }
 
 

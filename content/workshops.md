@@ -6,7 +6,7 @@ regaining confidence, accepting one's own body and learning how to love it throu
 work including release technique, spine mobilization, breathing exercises, power training,
 stretching, and improvisation.
 
-## The sessions
+**The sessions**
 
 - 120 minutes Bodyhealth – one-on-one session
 - 90 minutes Bodyhealth – one-on-one session

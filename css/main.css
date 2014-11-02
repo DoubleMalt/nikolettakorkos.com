@@ -133,30 +133,31 @@ a, a:visited, a:hover, a:active {
 .column-outer
 {
     position: absolute;
-    /*transform: rotate(90deg)*/
+    height: 3.2em;
+    width: 250px;
+    top: 50px;
 
 }
 
 .column-inner
 {
     position: absolute;
-    top: 50px;
 
     border-radius: 5px;
+
+    height: 100%;
+    width: 100%;
+
 
 }
 
 #left-column-outer {
 
-    left: 20px;
-    right: 50%;
+    left: 10%;
 }
 
 #left-column-inner {
 
-    left: 0;
-    padding: 20px;
-    right: 130px;
 
     background-color: rgba(0,0,0, 0.5);
 
@@ -165,15 +166,11 @@ a, a:visited, a:hover, a:active {
 
 #right-column-outer {
 
-    right: 20px;
-    left: 50%;
+    right: 10%;
 }
 
 #right-column-inner {
 
-    right: 0;
-    padding: 20px;
-    left: 130px;
 
     background-color: rgba(255,255,255, 0.5);
 
@@ -182,12 +179,35 @@ a, a:visited, a:hover, a:active {
 
 h1 {
     text-align: center;
-    margin: 0.5em;
+    margin: 0.1em;
 }
 
 
 
+@media screen and (max-width: 800px) {
 
+    #left-column-outer
+    {
+        transform: rotate(270deg);
+        transform-origin: 50% 150%;
+
+    }
+
+    #right-column-outer
+    {
+        transform: rotate(90deg);
+        transform-origin: 50% 150%;
+
+    }
+
+    /*.column-outer
+    {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+
+    }*/
+
+}
 
 
 

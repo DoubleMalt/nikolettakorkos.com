@@ -112,6 +112,7 @@ body
 
 a, a:visited, a:hover, a:active {
     color: inherit;
+
 }
 
 #background {
@@ -127,7 +128,19 @@ a, a:visited, a:hover, a:active {
     right:auto;
     z-index: -5;
 }
-
+#background-workshops {
+    background-image: url(../img/background-workshops.jpg);
+    background-size: 1920px auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: auto;
+    right:auto;
+    z-index: -5;
+}
 
 
 .column-outer
@@ -180,6 +193,11 @@ a, a:visited, a:hover, a:active {
 h1 {
     text-align: center;
     margin: 0.1em;
+}
+
+h1 a, h1 a:visited, h1 a:hover, h1 a:active {
+    text-decoration: none;
+
 }
 
 

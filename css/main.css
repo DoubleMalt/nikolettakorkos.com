@@ -120,11 +120,7 @@ a, a:visited, a:hover, a:active {
 
 }
 
-#background {
-    background-image: url(../img/background-2.png);
-    background-size: auto 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
+.background {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -133,18 +129,18 @@ a, a:visited, a:hover, a:active {
     right:auto;
     z-index: -5;
 }
+
+#background {
+    background-image: url(../img/background-2.png);
+    background-size: auto 110%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
 #background-workshops {
     background-image: url(../img/background-workshops.jpg);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: auto;
-    right:auto;
-    z-index: -5;
 }
 
 #background-performances {
@@ -152,15 +148,21 @@ a, a:visited, a:hover, a:active {
     background-size: auto 100%;
     background-position: center top;
     background-repeat: no-repeat;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: auto;
-    right:auto;
-    z-index: -5;
 }
 
+#background-cv {
+    background-image: url(../img/background-cv.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#background-imprint {
+    background-image: url(../img/background-imprint.jpg);
+    background-size: auto 120%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
 
 
 .column-outer
@@ -168,7 +170,6 @@ a, a:visited, a:hover, a:active {
     position: absolute;
     height: 3.2em;
     width: 250px;
-    top: 50px;
 
 }
 
@@ -183,6 +184,18 @@ a, a:visited, a:hover, a:active {
 
 
 }
+
+.column-outer-bottom
+{
+    bottom: 50px;
+}
+
+.column-outer-top
+{
+    top: 50px;
+}
+
+
 
 #left-column-outer {
 
@@ -233,7 +246,37 @@ h1 a, h1 a:visited, h1 a:hover, h1 a:active {
     text-align: left;
 }
 
+#content-imprint {
+    max-width: 800px;
+    border-radius: 5px;
+
+    background-color: rgba(255,255,255, 0.5);
+    padding: 1em;
+    margin-top: 2em;
+
+    display: inline-block;
+
+    text-align: left;
+}
+
+
 #content-performances {
+    max-width: 800px;
+    border-radius: 5px;
+
+    background-color: rgba(0,0,0, 0.5);
+    padding: 1em;
+    margin-top: 2em;
+
+    display: inline-block;
+
+    text-align: left;
+
+    color: white;
+
+
+}
+#content-cv {
     max-width: 800px;
     border-radius: 5px;
 
@@ -266,12 +309,17 @@ h1 a, h1 a:visited, h1 a:hover, h1 a:active {
 
     }
 
-    /*.column-outer
+    #left-column-outer.column-outer-bottom
     {
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
+        transform: rotate(270deg) translate(50%,0);
 
-    }*/
+    }
+
+    #right-column-outer.column-outer-bottom
+    {
+        transform: rotate(90deg) translate(-50%,0);
+
+    }
 
 }
 

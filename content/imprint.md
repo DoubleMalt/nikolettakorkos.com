@@ -6,9 +6,7 @@ Impressum
 
 **Nikoletta Korkos**
 
-Schwendergasse 1B/12
-1150 Wien
-Österreich
+Wien
 
 E-Mail:  nikolettakorkos@gmail.com
 

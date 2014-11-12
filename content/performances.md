@@ -2,7 +2,7 @@
 
 ## 2014
 
-- Stage- Imrovisation with Gyuri Lakatos, Thessaloniki
+- Stage- Improvisation with Gyuri Lakatos, Thessaloniki
 
 ## 2013
 
